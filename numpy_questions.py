@@ -68,7 +68,7 @@ def wallis_product(n_terms) -> float:
         A=1
         for i in range(1,n_terms+1):
             A = (2*i / (2*i-1))*(2*i/(2*i+1))*A
-        return A
+        return 2*A
 
 
 
